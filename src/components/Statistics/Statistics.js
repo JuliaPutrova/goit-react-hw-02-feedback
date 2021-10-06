@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Title, StatisticItem } from './Statistics.styled';
 import PropTypes from 'prop-types';
 import { FcStatistics } from 'react-icons/fc';

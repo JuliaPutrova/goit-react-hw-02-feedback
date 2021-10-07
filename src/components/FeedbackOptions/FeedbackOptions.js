@@ -18,24 +18,9 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
   );
 }
 
-export default FeedbackOptions;
-
 FeedbackOptions.propTypes = {
   options: PropTypes.array.isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
 
-// function FeedbackOptions({options, onLeaveFeedback}) {
-//     return (
-//         <>
-
-//             {options.map((option) =>
-//                 <button key={option} type="button" onClick={onLeaveFeedback}>
-//                     {option}
-//                 </button>
-
-//             )}
-
-//         </>
-//     );
-// };
+export default FeedbackOptions;

@@ -13,9 +13,14 @@ function Container({ title, children }) {
   );
 }
 
-export default Container;
+//указываем пропс по умолчанию дла детей, т.к. мы не указываем isRequired
+Container.defaultProps = {
+  children: [],
+};
 
 Container.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
+
+export default Container;
